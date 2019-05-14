@@ -1,0 +1,32 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "online buy and sell item",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlindHonk0897/ECommerce.git"
+  },
+  "author": "phil,wink,dann,glen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlindHonk0897/ECommerce/issues"
+  },
+  "homepage": "https://github.com/BlindHonk0897/ECommerce#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.16.1",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.5",
+    "nodemon": "^1.19.0"
+  }
+}
